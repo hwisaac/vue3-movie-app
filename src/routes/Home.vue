@@ -2,20 +2,20 @@
   <Headline />
   <Search />
   <MovieList />
-  <MovieItem />
+  <!-- <MovieItem /> -->
 </template>
 
 <script>
 import Headline from "~/components/Headline";
 import Search from "~/components/Search";
 import MovieList from "~/components/MovieList";
-import MovieItem from "~/components/MovieItem";
+// import MovieItem from "~/components/MovieItem";
 export default {
   components: {
     Headline,
     Search,
     MovieList,
-    MovieItem,
+    // MovieItem,
   },
 };
 </script>

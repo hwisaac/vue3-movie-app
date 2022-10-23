@@ -1,7 +1,7 @@
-import { createRouter, createWebHashHistory } from 'vue-router';
-import Home from './Home';
-import About from './About';
-import Movie from './Movie';
+import { createRouter, createWebHashHistory } from "vue-router";
+import Home from "./Home";
+import About from "./About";
+import Movie from "./Movie";
 
 export default createRouter({
   // hash
@@ -11,15 +11,15 @@ export default createRouter({
   // https://google.com/
   routes: [
     {
-      path: '/',
+      path: "/",
       component: Home,
     },
     {
-      path: '/movie',
+      path: "/movie/:id",
       component: Movie,
     },
     {
-      path: '/about',
+      path: "/about",
       component: About,
     },
   ],
