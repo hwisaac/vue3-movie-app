@@ -55,6 +55,7 @@ export default {
   },
   methods: {
     async apply() {
+      //movie.js의 searchMovies 액션 실행
       this.$store.dispatch("movie/searchMovies", {
         title: this.title,
         type: this.type,
@@ -65,6 +66,7 @@ export default {
   },
 };
 </script>
+
 <style lang="scss" scoped>
 .container {
   display: flex;
