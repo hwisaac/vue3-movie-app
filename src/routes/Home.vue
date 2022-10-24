@@ -17,5 +17,8 @@ export default {
     MovieList,
     // MovieItem,
   },
+  created() {
+    this.$store.commit("movie/resetMovies");
+  },
 };
 </script>
