@@ -6,7 +6,7 @@ export default {
     blog: 'https://velog.io/@',
     phone: '+08-01-1234-5678',
     image:
-      'https://github.com/hwisaac/vue3-movie-app/blob/master/src/assets/logo.png',
+      'https://github.com/hwisaac/vue3-movie-app/blob/master/src/assets/logo.png?raw=true',
   }),
 };
 // 안녕하세요
