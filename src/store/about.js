@@ -1,11 +1,11 @@
 export default {
   namespaced: true,
   state: () => ({
-    name: "hwisaac",
-    email: "abcd@efg.com",
-    blog: "https://wlogwma.com",
-    phone: "+08-01-1234-5678",
-    image: "https://heropy.blog/css/images/logo.png",
+    name: '황이삭',
+    email: 'hwisaac0@gmail.com',
+    blog: 'https://velog.io/@',
+    phone: '+08-01-1234-5678',
+    image: 'https://heropy.blog/css/images/logo.png',
   }),
 };
 // 안녕하세요
